@@ -1,0 +1,599 @@
+
+header{
+    background-image: url(../image/post-image8-1920x1282.jpg) ;
+    background-position: 0px -121px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+   margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.dropdown>.dropdown-menu{
+    padding-bottom: 40px;
+}
+.dropdown:hover>.dropdown-menu{
+   display: block;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    padding: 0px 20px;
+}
+.dropdown>.dropdown-menu{
+    border-top: #c7765d 3px solid;
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown{
+    padding:0px 10px;
+}
+.dropdown>.dropdown-menu a{
+    margin-top: 10px;
+    border-color: #eeeeee;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.nav-item .nav-link{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+.font-icon{
+ margin-top: 20px;
+}
+.fab,.fas {
+    font-weight: 900;
+    color: white;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+.cart{
+    margin-left: 4px;
+    margin-right: 9px;
+    color: white;
+}
+
+.banner{
+    padding: 160px;
+    text-align: center;
+    width: 100%;
+}
+.banner a:hover{
+    text-decoration: none;
+    
+}
+.banner  h6{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.banner  h1{
+    color: #e9e9e9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px 0px;
+    font-size: 50px;
+    margin-left: 72px;
+}
+
+.day{
+    text-transform: uppercase;
+    color: #cacaca;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-left: 13px;
+    margin-bottom: 150px;
+}
+
+.banner  .by{
+    color: black;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner  .soloPine{
+    color: black;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.banner  ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top:100px;
+}
+.banner .actor{
+    background-image: url(../image/f995c34e6a5cfaff38a739f55d46f5ed.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -50px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 38px;
+    margin-right: 5px;
+}
+.content{
+    margin-top: 10px;
+}
+.content .promo{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content .promo h6{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+   
+.content .border1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 170px;
+    position:relative;    
+
+    margin-right: 35px;
+    border: 1px white solid;
+}
+.content .subscribe{
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding: 0px 20px;
+}
+.content .subscribe h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content .subscribe p{
+    color: #777;
+}
+.content .description{
+    background-color: #f4f4f4;
+    margin-top: 40px;
+}
+.content .form_email{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding: 0px 20px;
+}
+.content .form_email  input[type=submit]{
+    background-color: #f78a74;
+    color: #ffffff;
+    padding:10px 30px;
+    border: white 1px solid;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.content .form_email  input[type=submit]:hover{
+    background-color: black;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content .form_email  input[type=text]{
+    margin-right: 10px;
+    padding:9px 0px;
+    padding-right: 80px;
+    padding-left: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px white solid;
+}
+.content .blog{
+    margin-top: 40px;
+}
+.content .blog .new{
+    text-decoration: none;
+}
+.content .blog .news .title{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f78a74;
+}
+
+.content .blog .news .entry-title{
+    text-align: center;
+    color: #000;
+    margin:30px 0px;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.content .blog .news .day{
+    text-align: center;
+    text-decoration: none;
+}
+.content .blog .news .post-entry{
+    margin: 20px 0px;
+    font-size: 18px;
+    line-height: 1.8;
+    text-transform: none;
+    font-family: "Lora",sans-serif;
+    font-weight: 400;
+}
+.content .blog .news .read-more-wrapper {
+    text-align: center;
+    margin-top: 30px;
+}
+.content .blog .news .more-text {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.content .blog .news .more-line {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background: #f7836c;
+    transition-duration: .15s;
+}
+.content .blog .news .read-more-wrapper a:hover {
+    color: #f7836c; 
+}
+.content .blog .news  .post-footer-share {
+    text-align: center;
+}
+.content .blog .news  .share-button{
+    margin: 0px 30px;
+    color: #f78a74;
+    background-color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px 9px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 1px solid #f78a74;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+}
+
+.content .blog .news  .post-footer-share a:hover{
+    background-color: #f78a74;
+    color: white;
+}
+.content .blog .news .read-another{
+    margin-top: 80px;
+    background: #f8f8f8;
+    padding: 16px 0px;
+}
+.content .blog .news  .panavigate{
+    margin-top: 40px;
+}
+.content .blog .news  .panavigate ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+}
+.content .blog .news  .fas {
+    color: black;
+    margin-left: 6px;
+    margin-top: auto;
+}
+.content .blog .news  .panavigate ul li{
+    margin: 0px 12px;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content .blog .news  .panavigate .active {
+    background-color: #f78a74;
+    padding: 10px 14px;
+    border-radius: 100%;
+    color: white;
+}
+.content .blog .news  .panavigate  a:hover{
+    color: #f78a74;
+}
+.content .blog .news   .panavigate ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.content .blog .news  .read-another h6{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f78a74;
+    
+}
+.content .blog .news  .read-another h3{
+    font-size: 20px;
+    margin-left:30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .blog .news .read-another p{
+    font-size: 14px;
+    color: #999999;
+    margin-left: 30px;
+    
+}
+.content .blog .news .read-another .day1{
+    text-transform: uppercase;
+    color: #cacaca;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    
+}
+
+.content .blog .news .blogger h6{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 26%;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: inset 0 -8px 0 #ffd6cb;
+    line-height: 18px;
+}
+.content .blog .news .blogger h5{
+    font-size: 14px;
+    text-transform: none;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content .blog .news .blogger p{
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: none;
+    color: black;
+    font-family: Poppins;
+    text-align: center;
+}
+.content .blog .news .blogger h4{
+    font-size: 14px;
+    line-height: 23px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.content .blog .news .blogger .sign{
+    transform: translate(54%, 15%);
+    margin-bottom: 50px;
+}
+
+.content .blog .news .blogger .social{
+    margin: 20px 0px;
+    margin-left: 40px;
+}
+.content .blog .news .blogger .social a {
+    float: none;
+    font-size: 16px;
+    margin: 0 3px 9px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+}
+.content .blog .news .blogger .social a:hover{
+    background-color: #c5bfbf;
+}
+.social .facebook{
+    color: #3a589e;
+}
+.social .twitter{
+    color: #55acee;
+}
+.social .instagram {
+    color: #5851db;
+}
+.social .pinterest {
+    color: #bd081c;
+}
+.social .youtube {
+    color: #cd201f;
+}
+.social .rss {
+    color: #f26522;
+}
+.content .blog .news  .top-art {
+    margin-top: 40px;
+}
+.content .blog .news  .top-art a{
+    color: #000000;
+    font-family: Poppins;   
+    font-size: 14px;
+    text-decoration: none;
+}
+.content .blog .news  .top-art a:hover{
+    color: #f78a74; 
+}
+.content .blog .news  .top-art p{
+    color: #cacaca;
+
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.instagram{
+    margin-top: 50px;
+    text-align: center;
+    background: #f4f4f4;
+}
+.instagram p{
+    padding-top:60px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555555;
+}
+.instagram h5{
+    margin-top: -10px;
+    padding-bottom: 60px;
+}
+.instagram .fab{
+    color: #000000;
+    font-size: 30px;
+}
+.instagram a{
+    color: #000000;
+   font-size: 30px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   margin-left: 6px;
+
+}
+.instagram a:hover{
+    color: black;
+ }
+ .listfooter{
+    margin-top: -6px;
+ }
+.listfooter ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+
+}
+footer{
+    background: black;
+    padding-bottom: 30px;
+}
+footer img{
+    display: block;
+    padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer p{
+    color: #888888;
+    font-size: 12px;
+    text-transform: none;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style-type: none;
+}
+footer li a{
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+footer li a:hover{
+    color: #f6836c;
+    text-decoration: none;
+}
+footer .footer-social {
+    text-align: right;
+}
+footer .footer-social a {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 22px;
+}
+footer .footer-social a:hover {
+    color: #f78a74;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1030px;
+}   
+@media only screen and (max-width: 600px) {
+    
+    .banner h1 {
+        color: #e9e9e9;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 50px 0px;
+        font-size: 50px;
+    }
+    .banner .by {
+        color: white;
+        margin-right: 10px;
+        margin-top: -32px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .banner ul {
+    display: inline;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 1px;
+    }
+    .content .promo {
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    footer li a {
+        text-decoration: none;
+        margin: 0px 15px;
+        color: #ffffff;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    footer p {
+        color: #888888;
+        font-size: 12px;
+        text-transform: none;
+        text-align: center;
+    }
+    footer .footer-social {
+        text-align: center;
+    }
+    .font-icon {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
