@@ -149,10 +149,9 @@ a{
 .content .border1{
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    padding-top: 170px;
-    position:relative;    
-
+    transform: translate(4%, 4%);
+    padding-top: 175px;
+    /* position: relative; */
     margin-right: 35px;
     border: 1px white solid;
 }
