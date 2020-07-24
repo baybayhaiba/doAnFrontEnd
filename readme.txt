@@ -1,0 +1,1 @@
+Do thanh menu động nên em xóa để chụp hình
